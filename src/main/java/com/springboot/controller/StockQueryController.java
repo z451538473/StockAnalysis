@@ -1,5 +1,6 @@
 package com.springboot.controller;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,8 +54,6 @@ public class StockQueryController
 				stock.setClosePrice(obj.getFloatValue("4. close"));
 				stock.setTradeVolume(obj.getLongValue("5. volume"));
 				stockResp.save(stock);
-				// dataList.add(stock);
-				// stockService.InsertData(stock);
 			}
 			return "Successful add " + data.size() + " data";
 		}

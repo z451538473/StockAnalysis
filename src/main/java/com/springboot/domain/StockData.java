@@ -1,6 +1,7 @@
 package com.springboot.domain;
 
 import java.io.Serializable;
+import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
