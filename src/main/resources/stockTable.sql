@@ -8,6 +8,6 @@ CREATE TABLE IF NOT EXISTS `stock_data_table`
 	`close_price` 		FLOAT,
 	`high_price` 		FLOAT,
 	`low_price` 		FLOAT,
-	`open_price` 		BIGINT(20),
+	`trade_volume` 		BIGINT(20),
     PRIMARY KEY  (`stock_symbol`, `stock_info_date`)
 );
